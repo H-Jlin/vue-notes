@@ -1,0 +1,26 @@
+{
+  "name": "vue-notes",
+  "version": "1.0.0",
+  "description": "vue note",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H-Jlin/vue-notes.git"
+  },
+  "keywords": [
+    "vue",
+    "note"
+  ],
+  "author": "lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H-Jlin/vue-notes/issues"
+  },
+  "homepage": "https://github.com/H-Jlin/vue-notes#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
